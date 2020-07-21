@@ -29,6 +29,7 @@
     "gulp-size": "^3.0.0",
     "gulp-sourcemaps": "^2.6.4",
     "lerna": "^3.13.3",
+    "prettier": "^2.0.5",
     "rollup": "^0.62.0",
     "rollup-plugin-babel": "^3.0.7",
     "rollup-plugin-commonjs": "^9.2.0",
