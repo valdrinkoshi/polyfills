@@ -24,7 +24,9 @@
   "scripts": {
     "build": "tsc && gulp",
     "build:watch": "chokidar --initial 'ts_src/**/*.ts' -c 'npm run build'",
-    "prepack": "npm run build"
+    "prepack": "npm run build",
+    "lint": "prettier --check .",
+    "format": "prettier --write ."
   },
   "files": [
     "formdata-event.min.js*",
